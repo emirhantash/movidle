@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="rootPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="911.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.movidle.Controller">
+    <Label fx:id="head" layoutX="411.0" layoutY="14.0" text="Movidle" textFill="#091580">
+        <font>
+            <Font size="50.0" />
+        </font>
+    </Label>
+    <TextField fx:id="searchBar" layoutX="225.0" layoutY="121.0" prefHeight="39.0" prefWidth="533.0" promptText="Type movie name ..." />
+    <Button fx:id="guessBtn" layoutX="796.0" layoutY="121.0" mnemonicParsing="false" onAction="#handleGuessButton" prefHeight="39.0" prefWidth="79.0" text="Guess" />
+    <Label fx:id="titleLabel" layoutX="225.0" layoutY="238.0" text="Title" />
+    <Label fx:id="yearLabel" layoutX="325.0" layoutY="238.0" text="Year" />
+    <Label fx:id="genreLabel" layoutX="421.0" layoutY="238.0" text="Genre" />
+    <Label fx:id="originLabel" layoutX="523.0" layoutY="238.0" text="Origin" />
+    <Label fx:id="directorLabel" layoutX="624.0" layoutY="238.0" text="Director" />
+    <Label fx:id="starLabel" layoutX="737.0" layoutY="238.0" text="Star" />
+    <Separator layoutX="197.0" layoutY="254.0" prefHeight="0.0" prefWidth="79.0" />
+    <Separator layoutX="297.0" layoutY="254.0" prefHeight="3.0" prefWidth="79.0" />
+    <Separator layoutX="397.0" layoutY="254.0" prefHeight="3.0" prefWidth="79.0" />
+    <Separator layoutX="500.0" layoutY="254.0" prefHeight="3.0" prefWidth="79.0" />
+    <Separator layoutX="606.0" layoutY="254.0" prefHeight="3.0" prefWidth="79.0" />
+    <Separator layoutX="708.0" layoutY="254.0" prefHeight="3.0" prefWidth="79.0" /><HBox layoutX="195.0" layoutY="313.0" prefHeight="100.0" prefWidth="600.0">
+        <Label fx:id="title1" prefHeight="100.0" prefWidth="100.0" />
+        <Label fx:id="year1" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="genre1" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="origin1" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="director1" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="star1" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+    </HBox>
+    <HBox layoutX="195.0" layoutY="420.0" prefHeight="100.0" prefWidth="600.0">
+        <Label fx:id="title2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="year2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="genre2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="origin2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="director2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="star2" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+    </HBox>
+    <HBox layoutX="195.0" layoutY="528.0" prefHeight="100.0" prefWidth="600.0">
+        <Label fx:id="title3" prefHeight="114.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="year3" prefHeight="107.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="genre3" prefHeight="102.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="origin3" prefHeight="106.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="director3" prefHeight="101.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="star3" prefHeight="105.0" prefWidth="100.0" textAlignment="CENTER" />
+    </HBox>
+    <HBox layoutX="195.0" layoutY="642.0" prefHeight="100.0" prefWidth="600.0">
+        <Label fx:id="title4" prefHeight="105.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="year4" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="genre4" prefHeight="106.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="origin4" prefHeight="113.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="director4" prefHeight="111.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="star4" prefHeight="105.0" prefWidth="100.0" textAlignment="CENTER" />
+    </HBox>
+    <HBox layoutX="195.0" layoutY="758.0" prefHeight="100.0" prefWidth="600.0">
+        <Label fx:id="title5" prefHeight="109.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="year5" prefHeight="109.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="genre5" prefHeight="106.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="origin5" prefHeight="106.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="director5" prefHeight="100.0" prefWidth="100.0" textAlignment="CENTER" />
+        <Label fx:id="star5" prefHeight="103.0" prefWidth="100.0" textAlignment="CENTER" />
+    </HBox>
+</AnchorPane>
